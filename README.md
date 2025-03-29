@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fitbit Clone
 
-## Getting Started
+A responsive **Fitbit Clone** built using **Next.js (App Router)** and **Tailwind CSS**, replicating the design and functionality of the Fitbit product store.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Fully responsive UI for **desktop, tablet, and mobile**
+- **Navigation Bar** with product categories and search/cart icons
+- **Hero Section** showcasing Fitbit smartwatches
+- **Product Sections** with background images and text overlays
+- **Footer** with links and social media icons
+- **Optimized Tailwind CSS utility classes** for styling
+
+## 📁 Folder Structure
+
+```
+fitbit-clone/
+│── public/                # Static assets (images, icons, etc.)
+│── src/
+│   ├── app/
+│   │   ├── layout.js      # Main layout file
+│   │   ├── page.js        # Home page component
+│   ├── components/
+│   │   ├── Navbar.js      # Navigation bar
+│   │   ├── Footer.js      # Footer section
+│   │   ├── Hero.js        # Hero section component
+│   ├── styles/
+│   │   ├── globals.css    # Global Tailwind styles
+│── package.json           # Project dependencies
+│── tailwind.config.js     # Tailwind configuration
+│── postcss.config.js      # PostCSS configuration
+│── next.config.js         # Next.js configuration
+└── README.md              # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installation & Setup
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```sh
+   git clone https://github.com/Mallikarjuna-dev/fitbit.com-google.git
+   cd fitbit.com-google
+   ```
 
-## Learn More
+2. **Install dependencies**
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server**
+   ```sh
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Styling
 
-## Deploy on Vercel
+- Uses **Tailwind CSS** for fast and efficient styling
+- Responsive design with **flexbox** and **grid layout**
+- Background images handled via **Tailwind utility classes**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js** - React framework for SSR & SSG
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Icons** - Icon set for UI elements
+
+## 🌐 Deployment
+
+Deploy the project easily on **Vercel**:
+
+```sh
+vercel deploy
+```
+
+**Deployed Link:**
